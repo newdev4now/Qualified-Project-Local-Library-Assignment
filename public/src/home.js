@@ -1,25 +1,11 @@
 function getTotalBooksCount(books) {
   // Function returns a number for the number of book objects in the array.
-  // Declare and initialize an accumulator variable.
-  let sum = 0;
-  // Iterate through the array to find the number of objects.
-  for (let i = 0; i < books.length; i++) {
-    sum += 1;
-  }
-  // Return the total.
-  return sum;
+  return books.length;
 }
 
 function getTotalAccountsCount(accounts) {
   // The function returns a number that represents the number of account objects in the array
-  // Declare an accumulator varaiable
-  let sum = 0;
-  // Iterate through the array to get the number of objects that it contains.
-  for (let i = 0; i < accounts.length; i++) {
-    sum += 1;
-  }
-  // Return the total
-  return sum;
+  return accounts.length;
 }
 
 function getBooksBorrowedCount(books) {
